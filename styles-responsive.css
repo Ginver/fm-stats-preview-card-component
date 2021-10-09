@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/*!*responsive*!*/
+@media only screen and (max-width: 376px) {
+    .container {
+        width: 327px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+
+}

@@ -2,32 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+  <link href="styles-responsive.css" rel="stylesheet" type="text/css"/>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0"> &lt;!&ndash; displays site properly based on user's device &ndash;&gt;-->
+<!--  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">-->
   
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Get insights that help your business grow.
+<div class="container">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+  <div class="text">
 
-  10k+ companies
-  314 templates
-  12m+ queries
+    <p class="text--main"> Get <span style="color: hsl(277, 64%, 61%)"> insights </span> that help your business grow.</p>
+    <p class="text--sub">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+      experience, and overall efficiency.</p>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="info">
+
+      <div class="info__block">
+        <p class="info__block--nr">10k+</p>
+        <p class="info__block--txt">companies</p>
+      </div>
+
+      <div class="info__block">
+        <p class="info__block--nr">314</p>
+        <p class="info__block--txt">templates</p>
+      </div>
+
+      <div class="info__block">
+        <p class="info__block--nr">12m+</p>
+        <p class="info__block--txt">queries</p>
+      </div>
+
+    </div>
+
   </div>
+
+  <div class="picture">
+    <img src="./images/image-header-desktop.jpg" alt="people working in an office" />
+  </div>
+
+</div>
+
 </body>
 </html>
