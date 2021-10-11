@@ -10,26 +10,31 @@
         /*padding: 0 24px 88px 24px;*/
     }
 
-    .picture--XL {
-        display: none;
-    }
 
-    .picture--S {
+    .picture {
         width: 327px;
-        display: unset;
+        height: 240px;
+        /*display: unset;*/
         border-top-right-radius: 8px;
         border-top-left-radius: 8px;
+        background-image: url("./images/image-header-mobile.jpg");
     }
 
     .text {
         padding: 40px 31px 32px 31px;
     }
 
+    /*.text__block {*/
+    /*    display: flex;*/
+
+    /*}*/
+
     .text--main {
         width: 264px;
         font-size: 28px;
         line-height: 32px;
         margin-bottom: 16px;
+        text-align: center;
     }
 
     .text--sub {
@@ -37,7 +42,7 @@
         font-size: 15px;
         line-height: 25px;
         margin-bottom: 40px;
-
+        text-align: center;
     }
 
     .info {
