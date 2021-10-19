@@ -9,19 +9,19 @@
 /*2. reset (optioneel *niet voor mij)*/
 /*3. layout: width & flow (flex box) -> *liever geen height als het kan!*/
 /*4. fonts & fontsize*/
+/*font-family: 'Inter', sans-serif;*/
+/*font-family: 'Lexend Deca', sans-serif;*/
 /*5. padding & margin*/
 /*6. kleurtjes*/
 /*7. overig*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
-/*font-family: 'Inter', sans-serif;*/
-/*font-family: 'Lexend Deca', sans-serif;*/
+
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
