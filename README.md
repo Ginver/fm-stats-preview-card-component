@@ -1,8 +1,8 @@
-# Frontend Mentor - Stats preview card component
+## Frontend Mentor - Stats preview card component
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
-## The challenge
+### The challenge
 
 My challenge was to build out this card component and get it looking as close to the design as possible.
 
@@ -15,9 +15,9 @@ So thank you for this challenge becouse now I am familiar with the 'background-b
 
 ### Links
 
+https://ginver.github.io/fm-stats-preview-card-component/
 
-
-## My process
+### My process
 
 - identifing elements
 - building the html sturcture
@@ -31,10 +31,10 @@ So thank you for this challenge becouse now I am familiar with the 'background-b
 - CSS custom properties
 - Flexbox
 
-## Author
+### Author
 
 - Frontend Mentor - @Ginver (https://www.frontendmentor.io/profile/Ginver)
 
-## Acknowledgments
+### Acknowledgments
 
 Thank you for #Reinoptland (https://youcancodeit.com/) to start with this challenge and make me realize how much I like coding.
