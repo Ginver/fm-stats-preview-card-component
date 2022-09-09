@@ -5,6 +5,8 @@
         flex-direction: column-reverse;
         align-content: space-around;
         border-radius: 8px;
+        margin-top: 88px;
+        margin-bottom: 88px;
 }
 
     .picture {
