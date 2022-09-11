@@ -35,6 +35,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-radius: 8px;
     background-color: hsl(244, 38%, 16%);
 }
 
@@ -89,12 +90,31 @@ body {
     text-transform: uppercase;
 }
 
+/*option 1*/
+/*.picture {*/
+/*    width: 540px;*/
+/*    background-image: url("./images/image-header-desktop.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-color: hsl(277, 64%, 61%);*/
+/*    background-blend-mode: multiply;*/
+/*}*/
+
+/*option 2*/
 .picture {
     width: 540px;
-    background-image: url("./images/image-header-desktop.jpg");
-    background-repeat: no-repeat;
     background-color: hsl(277, 64%, 61%);
-    background-blend-mode: multiply;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    }
+
+img {
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    mix-blend-mode: luminosity;
 }
 
 
