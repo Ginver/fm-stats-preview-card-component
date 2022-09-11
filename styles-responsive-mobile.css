@@ -4,17 +4,32 @@
         flex-wrap: wrap;
         flex-direction: column-reverse;
         align-content: space-around;
-        border-radius: 8px;
         margin-top: 88px;
         margin-bottom: 88px;
 }
 
+    /*option 1*/
+    /*.picture {*/
+    /*    width: 327px;*/
+    /*    background-image: url("./images/image-header-mobile.jpg");*/
+    /*}*/
+
+    /*option 2*/
     .picture {
         width: 327px;
-        height: 240px;
-        border-top-right-radius: 8px;
         border-top-left-radius: 8px;
-        background-image: url("./images/image-header-mobile.jpg");
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: unset;
+     }
+
+    img {
+        height: 240px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: unset;
+        mix-blend-mode: luminosity;
     }
 
     .text {
